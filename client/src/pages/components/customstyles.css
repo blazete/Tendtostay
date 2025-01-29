@@ -1,0 +1,10 @@
+.custom-icon {
+  background-color: #ffff;
+  color: black;
+  border-radius: 25%;
+  width: 100px; 
+  text-align: center;
+  line-height: 30px; 
+  font-weight: bold;
+  font-size: 14px;
+}
