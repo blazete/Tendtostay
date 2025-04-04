@@ -82,7 +82,6 @@ const UpdateMapCenter = ({ location }) => {
 
 const MissionMap = ({ setDisplayHotels, location, date, priceRange }) => {
   const [innerMap, setInnerMap] = useState([]);
-  console.log(innerMap)
   return (
     <div className="h-full w-full">
       <MapContainer center={location.latLon} zoom={12} className="h-[100%]" scrollWheelZoom={true} maxZoom={12} bounceAtZoomLimits= {false}>

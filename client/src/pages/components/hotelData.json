@@ -1,0 +1,282 @@
+[
+    {
+        "id": 0,
+        "garder": true,
+        "breakfast": true,
+        "pool": true,
+        "rooms": 3,
+        "state": "Gujarat",
+        "District": "Bhuj",
+        "name": "V by Vinnca Hotel & Spa",
+        "location": {
+            "type": "Point",
+            "coordinates": [69.719009, 23.239361]
+        },
+        "availabilitydates": [
+            { "from": "2025-04-01", "to": "2025-04-03" },
+            { "from": "2025-04-10", "to": "2025-04-12" },
+            { "from": "2025-04-20", "to": "2025-04-22" }
+        ],
+        "price": 1500
+    },
+    {
+        "id": 1,
+        "garder": true,
+        "breakfast": false,
+        "rooms": 2,
+        "pool": false,
+        "state": "Kerela",
+        "District": "Idduki",
+        "name": "The Lake View Munnar Resort",
+        "location": {
+            "type": "Point",
+            "coordinates": [77.032753, 10.016075]
+        },
+        "price": 1600,
+        "availabilitydates": [
+            { "from": "2025-04-05", "to": "2025-04-07" },
+            { "from": "2025-04-14", "to": "2025-04-16" },
+            { "from": "2025-04-24", "to": "2025-04-26" }
+        ]
+    },
+    {
+        "id": 2,
+        "rooms": 4,
+        "pool": true,
+        "garder": false,
+        "breakfast": false,
+        "state": "Maharashtra",
+        "District": "Mumbai",
+        "name": "Palladium Hotel",
+        "location": {
+            "type": "Point",
+            "coordinates": [72.825218, 18.993652]
+        },
+        "price": 1700,
+        "availabilitydates": [
+            { "from": "2025-04-08", "to": "2025-04-10" },
+            { "from": "2025-04-18", "to": "2025-04-20" },
+            { "from": "2025-04-28", "to": "2025-04-30"}
+        ]
+    },
+    {
+        "garder": false,
+        "id": 3,
+        "rooms": 1,
+        "breakfast": true,
+        "pool": true,
+        "state": "Delhi",
+        "District": "New Delhi",
+        "name": "Ibis New Delhi Aerocity Hotel",
+        "location": {
+            "type": "Point",
+            "coordinates": [77.123123, 28.551411]
+        },
+        "price": 1800,
+        "availabilitydates": [
+            { "from": "2025-04-11", "to": "2025-04-13" },
+            { "from": "2025-04-21", "to": "2025-04-23" },
+            { "from": "2025-04-29", "to": "2025-04-30" }
+        ]
+    },
+    {
+        "id": 4,
+        "rooms": 5,
+        "garder": true,
+        "pool": false,
+        "breakfast": false,
+        "state": "Banglore",
+        "District": "Karnataka",
+        "name": "The Den Whitefield",
+        "location": {
+            "type": "Point",
+            "coordinates": [77.733414, 12.987620]
+        },
+        "price": 1900,
+        "availabilitydates": [
+            { "from": "2025-04-02", "to": "2025-04-04" },
+            { "from": "2025-04-12", "to": "2025-04-14" },
+            { "from": "2025-04-22", "to": "2025-04-24" }
+        ]
+    },
+    {
+        "id": 5,
+        "rooms": 2,
+        "garder": true,
+        "pool": false,
+        "breakfast": true,
+        "state": "West Bangal",
+        "District": "Ratulia",
+        "name": "Sri Bishnu Hotel & Restaurant",
+        "location": {
+            "type": "Point",
+            "coordinates": [87.668472, 22.406437]
+        },
+        "price": 2000,
+        "availabilitydates": [
+            { "from": "2025-04-06", "to": "2025-04-08" },
+            { "from": "2025-04-16", "to": "2025-04-18" },
+            { "from": "2025-04-26", "to": "2025-04-28" }
+        ]
+    },
+    {
+        "garder": false,
+        "id": 6,
+        "rooms": 2,
+        "pool": true,
+        "breakfast": false,
+        "state": "Meerut",
+        "District": "Utter Pradesh",
+        "name": "Hotel Raj Hans Regency",
+        "location": {
+            "type": "Point",
+            "coordinates": [77.723862, 28.969727]
+        },
+        "price": 2100,
+        "availabilitydates": [
+            { "from": "2025-04-03", "to": "2025-04-05" },
+            { "from": "2025-04-13", "to": "2025-04-15" },
+            { "from": "2025-04-23", "to": "2025-04-25" }
+        ]
+    },
+    {
+        "garder": false,
+        "id": 7,
+        "pool": true,
+        "rooms": 4,
+        "breakfast": true,
+        "state": "Meghalaya",
+        "District": "Sohra",
+        "name": "D-Cloud Guesthouse",
+        "location": {
+            "type": "Point",
+            "coordinates": [91.731918, 25.262968]
+        },
+        "price": 2200,
+        "availabilitydates": [
+            { "from": "2025-04-04", "to": "2025-04-06" },
+            { "from": "2025-04-14", "to": "2025-04-16" },
+            { "from": "2025-04-24", "to": "2025-04-26" }
+        ]
+    },
+    {
+        "id": 8,
+        "pool": false,
+        "garder": true,
+        "breakfast": false,
+        "rooms": 7,
+        "state": "Punjab",
+        "District": "Madhopur",
+        "name": "Coral River Resor",
+        "location": {
+            "type": "Point",
+            "coordinates": [75.600082, 32.368473]
+        },
+        "price": 2300,
+        "availabilitydates": [
+            { "from": "2025-04-05", "to": "2025-04-07" },
+            { "from": "2025-04-15", "to": "2025-04-17" },
+            { "from": "2025-04-25", "to": "2025-04-27" }
+        ]
+    },
+    {
+        "id": 9,
+        "pool": true,
+        "rooms": 1,
+        "garder": true,
+        "breakfast": true,
+        "state": "Jaipur",
+        "District": "Rajasthan",
+        "name": "Hotel Taran Adinath Nagar",
+        "location": {
+            "type": "Point",
+            "coordinates": [75.802292, 26.851822]
+        },
+        "price": 2400,
+        "availabilitydates": [
+            { "from": "2025-04-06", "to": "2025-04-08" },
+            { "from": "2025-04-16", "to": "2025-04-18" },
+            { "from": "2025-04-26", "to": "2025-04-28" }
+        ]
+    },
+    {
+        "garder": false,
+        "id": 10,
+        "pool": false,
+        "breakfast": false,
+        "rooms": 4,
+        "state": "Delhi",
+        "District": "New Delhi",
+        "name": "Hyatt Hotel",
+        "location": {
+            "type": "Point",
+            "coordinates": [77.185265, 70.414, 28.5]
+        },
+        "price": 2500,
+        "availabilitydates": [
+            { "from": "2025-04-07", "to": "2025-04-09" },
+            { "from": "2025-04-17", "to": "2025-04-19" },
+            { "from": "2025-04-27", "to": "2025-04-29" }
+        ]
+    },
+    {
+        "garder": false,
+        "id": 11,
+        "pool": true,
+        "rooms": 3,
+        "state": "Himachal Pradesh",
+        "District": "Solan",
+        "breakfast": true,
+        "name": "Himani Hotel",
+        "location": {
+            "type": "Point",
+            "coordinates": [77.096733, 30.904486]
+        },
+        "price": 2600,
+        "availabilitydates": [
+            { "from": "2025-04-08", "to": "2025-04-10" },
+            { "from": "2025-04-18", "to": "2025-04-20" },
+            { "from": "2025-04-28", "to": "2025-04-30" }
+        ]
+    },
+    {
+        "id": 12,
+        "garder": true,
+        "pool": false,
+        "rooms": 2,
+        "breakfast": true,
+        "state": "Kumarakom",
+        "District": "Kerela",
+        "name": "Maya Heritage Kerala",
+        "location": {
+            "type": "Point",
+            "coordinates": [76.438469, 9.618521]
+        },
+        "price": 2700,
+        "availabilitydates": [
+            { "from": "2025-04-09", "to": "2025-04-11" },
+            { "from": "2025-04-19", "to": "2025-04-21" },
+            { "from": "2025-04-29", "to": "2025-04-30" }
+        ]
+    },
+    {
+        "id": 13,
+        "garder": true,
+        "pool": true,
+        "rooms": 3,
+        "state": "Goa",
+        "District": "South Goa",
+        "breakfast": false,
+        "name": "The Lalit Golf & Spa Resort Goa",
+        "location": {
+            "type": "Point",
+            "coordinates": [73.998367, 15.084736]
+        },
+        "price": 2800,
+        "availabilitydates": [
+            { "from": "2025-04-01", "to": "2025-04-03" },
+            { "from": "2025-04-11", "to": "2025-04-13" },
+            { "from": "2025-04-21", "to": "2025-04-23" }
+        ]
+    }
+]

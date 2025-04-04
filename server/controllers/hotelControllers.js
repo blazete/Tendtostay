@@ -24,25 +24,44 @@ async function handleHotelCreation(req, res) {
         res.status(400).send(`Error creating hotel: ${error.message}`);
     }
 }
-async function handleHotelFromMap(req,res){
+async function handleHotelFromMap(req, res) {
     const bonds = req.query?.bonds;
-    if(bonds){
-    try{
-    const hotels = await Hotel.find({
-        location: {
-            $geoWithin: {
-                $geometry: {
-                    type: "Polygon",
-                    coordinates: bonds
+    if (bonds) {
+        try {
+            // Parse the string coordinates into numbers
+            const coordinates = bonds[0].map(coord => {
+                const lat = parseFloat(coord[0]);
+                const lng = parseFloat(coord[1]);
+                
+                if (isNaN(lat) || isNaN(lng)) {
+                    throw new Error('Invalid coordinates provided');
                 }
-            }
+                
+                return [lat, lng];
+            });
+
+            const hotels = await Hotel.find({
+                "location.coordinates": {
+                    $geoWithin: {
+                        $geometry: {
+                            type: "Polygon",
+                            coordinates: [coordinates] // Note: coordinates is already in the correct format
+                        }
+                    }
+                }
+            });
+            
+            console.log("Found hotels:", hotels);
+            res.json(hotels);
+        } catch (error) {
+            console.error("Error fetching hotels:", error);
+            res.status(400).json({ 
+                error: error.message || "Invalid coordinates provided" 
+            });
         }
-    })
-    res.send(hotels)
-    }catch(error){
-        console.log(error)
-    }}
-    
+    } else {
+        res.status(400).json({ message: "No bounds provided" });
+    }
 }
 
 async function handleGetHotelById(req,res){
